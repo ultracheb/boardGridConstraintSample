@@ -54,8 +54,8 @@ public class MainActivity extends AppCompatActivity {
                 textView.setGravity(Gravity.CENTER);
 
                 GradientDrawable border = new GradientDrawable();
-                border.setColor(0xff005BBB);
-                border.setStroke(1, 0xFF000000);
+                border.setColor(0xffEB5D0D);
+                border.setStroke(1, 0x66000000);
                 textView.setBackground(border);
 
                 Constraints.LayoutParams params = new Constraints.LayoutParams(0, 0);
